@@ -1,0 +1,83 @@
+Calculadora de SOMA em Ruby
+Este projeto consiste em um programa simples em Ruby que calcula a soma dos números de 2 até 12 e imprime o resultado final.
+
+Como funciona
+O programa utiliza um loop while para somar os números de 2 até 12. Ao final do processamento, o valor da variável SOMA é impresso na tela.
+
+Exemplo de Execução
+arduino
+Copiar código
+O valor final de SOMA é: 78
+Requisitos
+Ruby deve estar instalado no seu sistema. Você pode verificar se o Ruby está instalado executando o seguinte comando no terminal:
+
+bash
+Copiar código
+ruby -v
+Caso não tenha o Ruby instalado, siga as instruções de instalação em: https://www.ruby-lang.org/en/documentation/installation/
+
+Como Executar o Programa
+Clone este repositório ou copie o código Ruby para um arquivo localmente.
+
+Navegue até o diretório onde o arquivo está localizado.
+
+Execute o programa com o seguinte comando no terminal:
+
+bash
+Copiar código
+ruby nome_do_arquivo.rb
+Substitua nome_do_arquivo.rb pelo nome do arquivo onde você salvou o código Ruby.
+
+O programa calculará a soma conforme especificado e exibirá o resultado.
+
+Estrutura do Código
+O código Ruby é estruturado da seguinte maneira:
+
+ruby
+Copiar código
+indice = 12
+soma = 0
+k = 1
+
+while k < indice
+  k = k + 1
+  soma = soma + k
+end
+
+puts "O valor final de SOMA é: #{soma}"
+Variáveis:
+
+indice: Armazena o valor 12, que é o limite superior para o cálculo da soma.
+soma: Inicialmente é 0 e é usada para acumular a soma dos valores de k.
+k: Começa com 1 e é incrementada em cada iteração do loop.
+Loop while:
+
+Itera enquanto k for menor que indice.
+Em cada iteração, k é incrementada em 1 e adicionada a soma.
+Impressão do resultado:
+
+Ao final do loop, o programa imprime o valor final de soma.
+Contribuição
+Se desejar contribuir com melhorias para este projeto:
+
+Faça um fork do repositório.
+
+Crie uma nova branch para suas modificações:
+
+bash
+Copiar código
+git checkout -b minha-modificacao
+Faça as alterações desejadas e faça commit das mudanças:
+
+bash
+Copiar código
+git commit -am 'Adicionando minha modificação'
+Envie suas alterações para o repositório remoto:
+
+bash
+Copiar código
+git push origin minha-modificacao
+Abra um pull request explicando suas alterações.
+
+Licença
+Este projeto está licenciado sob os termos da MIT License.
